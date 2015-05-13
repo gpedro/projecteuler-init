@@ -1,0 +1,44 @@
+{
+  "name": "euler",
+  "version": "0.1.0",
+  "description": ".",
+  "author": {
+    "name": "Gabriel Pedro",
+    "email": "gpedro831@gmail.com",
+    "url": "https://gpedro.net"
+  },
+  "repository": "gpedro/projecteuler-init",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "projecteuler-init",
+    "euler",
+    "projecteuler"
+  ],
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "got": "^3.2.0",
+    "meow": "^3.1.0",
+    "mkdirp": "^0.5.0",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "time-grunt": "^1.1.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "bin": {
+    "euler": "cli.js"
+  }
+}
